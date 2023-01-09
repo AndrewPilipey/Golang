@@ -12,4 +12,5 @@ func main() {
 
 	fmt.Println("Your name is:", name)
 	fmt.Println("Your age is:", age)
+	fmt.Println("I returned to study Golang")
 }
