@@ -28,4 +28,6 @@ func main() {
 	} else {
 		fmt.Println("A and B are equal")
 	}
+
+	fmt.Println("for git")
 }
