@@ -1,23 +1,18 @@
-// пока не решено
+// well done
 package main
 
 import "fmt"
 
 func main() {
 	var a, b, sum int
-
-	fmt.Scan(&a)
-
-	for _; _; a {
-		for sum = 0; sum%8 != 0; sum = +b {
-			fmt.Scan(&b)
-			if 10 <= b && b%8 == 0 && b <= 99 {
-				sum += b
-			}
+	fmt.Scanln(&a)
+	for i := 0; i < a; i++ {
+		fmt.Scan(&b)
+		if 10 <= b && b%8 == 0 && b <= 99 {
+			sum += b
 		}
 	}
 	fmt.Println(sum)
-
 }
 
 /*
@@ -28,7 +23,7 @@ func main() {
 Sample Input:
 
 5
-38 24 800 8 16
+38 24 800 8	 16
 Sample Output:
 
 40
